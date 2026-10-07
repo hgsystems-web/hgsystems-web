@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#020307"/><stop offset=".5" stop-color="#130509"/><stop offset="1" stop-color="#05070c"/></linearGradient></defs>
+<rect width="1600" height="800" fill="url(#g)"/>
+<g fill="none" stroke="#ff3333" stroke-width="3" opacity=".55">
+<path d="M0 170h320l100 100h240l80-80h360l100 100h400"/><path d="M0 620h360l80-80h310l90 90h260l90-90h410"/>
+</g>
+<g transform="translate(1030 180)">
+<path d="M160 0l175 65v150c0 120-80 190-175 230-95-40-175-110-175-230V65z" fill="#10151e" stroke="#e9edf3" stroke-width="12"/>
+<path d="M90 215l45 45 95-105" fill="none" stroke="#ff3333" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="90" y="235" fill="#fff" font-family="Arial" font-size="72" font-weight="800">SOPORTE SEGURO</text>
+<text x="94" y="300" fill="#ff3333" font-family="Arial" font-size="34" letter-spacing="7">PROTECCIÓN • RESPALDO • SOLUCIONES</text>
+</svg>

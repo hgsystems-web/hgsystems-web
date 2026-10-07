@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800">
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop stop-color="#05070c"/><stop offset=".55" stop-color="#16070a"/><stop offset="1" stop-color="#020307"/></linearGradient>
+  <radialGradient id="r"><stop stop-color="#ff3030" stop-opacity=".9"/><stop offset="1" stop-color="#ff3030" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="800" fill="url(#g)"/><circle cx="1250" cy="270" r="420" fill="url(#r)"/>
+<g fill="none" stroke="#ff3030" stroke-width="4" opacity=".65">
+<path d="M0 650H500l70-70h300l100-100h630"/><path d="M120 120h380l80 80h260l90 90h670"/>
+<path d="M80 300h330l120 120h230l80-80h680"/><path d="M1040 80l-140 140h-180l-90 90h-240"/>
+</g>
+<g fill="#ff3030" opacity=".9"><circle cx="500" cy="650" r="7"/><circle cx="1300" cy="300" r="7"/><circle cx="900" cy="120" r="7"/></g>
+<g transform="translate(930 205)" fill="none" stroke="#e9edf3" stroke-width="18">
+<rect x="0" y="0" width="390" height="250" rx="18"/><path d="M-55 300h500M80 300l-45 75h310l-45-75"/>
+</g>
+<text x="90" y="190" fill="#fff" font-family="Arial" font-size="72" font-weight="800">MANTENIMIENTO</text>
+<text x="94" y="255" fill="#ff3333" font-family="Arial" font-size="34" letter-spacing="8">TECNOLOGÍA • RENDIMIENTO • SEGURIDAD</text>
+</svg>

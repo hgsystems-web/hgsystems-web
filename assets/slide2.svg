@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#03050a"/><stop offset=".5" stop-color="#0d1119"/><stop offset="1" stop-color="#190407"/></linearGradient></defs>
+<rect width="1600" height="800" fill="url(#g)"/>
+<g stroke="#ff3333" fill="none" opacity=".55">
+<circle cx="1180" cy="400" r="260" stroke-width="2"/><circle cx="1180" cy="400" r="180" stroke-width="5"/><circle cx="1180" cy="400" r="90" stroke-width="9"/>
+</g>
+<g transform="translate(930 150)" fill="none" stroke="#e8ecf2" stroke-width="14">
+<path d="M250 0v70M250 430v70M0 250h70M430 250h70M75 75l50 50M375 375l50 50M425 75l-50 50M125 375l-50 50"/>
+<circle cx="250" cy="250" r="135"/><circle cx="250" cy="250" r="55"/>
+</g>
+<g fill="#ff3333"><circle cx="1180" cy="400" r="32"/></g>
+<text x="90" y="230" fill="#fff" font-family="Arial" font-size="72" font-weight="800">OPTIMIZACIÓN</text>
+<text x="94" y="295" fill="#ff3333" font-family="Arial" font-size="34" letter-spacing="7">LIMPIEZA • DIAGNÓSTICO • MEJORA</text>
+</svg>

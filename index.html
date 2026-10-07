@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HG SYSTEMS — mantenimiento de equipos informáticos, optimización, limpieza, instalación y soporte técnico.">
+  <title>HG SYSTEMS | Mantenimiento Informático</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="loader" id="loader"><img src="assets/logo.png" alt=""><i></i></div><div class="progress" id="progress"></div><div class="scanline">
+    <div class="rgb-bg" id="rgbBg" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  </div>
+
+  <header class="header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="HG SYSTEMS inicio">
+      <img src="assets/logo.png" alt="Logo HG SYSTEMS">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="mainNav">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#precios">Precios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto" class="nav-cta">Contactar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <video class="bg-video" autoplay muted loop playsinline poster="assets/video/poster.jpg"><source src="assets/video/hero.mp4" type="video/mp4"></video><canvas id="fx"></canvas><div class="hero-shade"></div><div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span class="dot"></span> SERVICIO TÉCNICO INFORMÁTICO</div>
+        <h1>Tu equipo.<br><span id="typed">Más rápido.</span><br>Más seguro.</h1>
+        <p><strong>HG SYSTEMS</strong>: mantenimiento y soporte para tu equipo.</p>
+        <div class="hero-actions">
+          <a href="#precios" class="btn btn-primary">Ver servicios y precios <span>→</span></a>
+          <a href="#contacto" class="btn btn-ghost">Solicitar diagnóstico</a>
+        </div>
+        <div class="stats"><div><b data-n="500" data-s="+">0</b><span>Equipos atendidos</span></div><div><b data-n="98" data-s="%">0</b><span>Clientes satisfechos</span></div><div><b data-n="8" data-s="h">0</b><span>Respuesta</span></div></div><div class="stats" hidden>
+          <div><b>01</b><span>Diagnóstico</span></div>
+          <div><b>02</b><span>Mantenimiento</span></div>
+          <div><b>03</b><span>Entrega</span></div>
+        </div>
+      </div>
+      <div class="hero-logo-wrap">
+        <div class="tech-ring"></div>
+        <img src="assets/logo.png" class="hero-logo" alt="HG SYSTEMS">
+        <div class="floating-card card-a">⚙ <span>Optimización</span></div>
+        <div class="floating-card card-b">✓ <span>Soporte técnico</span></div>
+      </div>
+      <div class="marquee"><div><b>Mantenimiento</b><b>Optimización</b><b>Seguridad</b><b>Respaldo</b><b>Diagnóstico</b><b>Formateo</b><b>Mantenimiento</b><b>Optimización</b><b>Seguridad</b><b>Respaldo</b><b>Diagnóstico</b><b>Formateo</b><b>Mantenimiento</b><b>Optimización</b><b>Seguridad</b><b>Respaldo</b><b>Diagnóstico</b><b>Formateo</b><b>Mantenimiento</b><b>Optimización</b><b>Seguridad</b><b>Respaldo</b><b>Diagnóstico</b><b>Formateo</b></div></div><div class="scroll">DESLIZA <span>↓</span></div>
+    </section>
+
+    <section class="carousel-section" aria-label="Servicios destacados">
+      <div class="section-head">
+        <div><small>HG / SYSTEMS</small><h2>Soluciones que <span>se sienten.</span></h2></div>
+        <div class="carousel-controls"><button id="prev" aria-label="Anterior">←</button><button id="next" aria-label="Siguiente">→</button></div>
+      </div>
+      <div class="carousel" id="carousel">
+        <article class="slide active"><img src="assets/slide1.svg" alt="Mantenimiento informático"><div class="slide-copy"><small>01 / MANTENIMIENTO</small><h3>Devolvemos el rendimiento.</h3><p>Limpieza y revisión.</p></div></article>
+        <article class="slide"><img src="assets/slide2.svg" alt="Optimización de computadora"><div class="slide-copy"><small>02 / OPTIMIZACIÓN</small><h3>Más velocidad, menos problemas.</h3><p>Tu sistema, bien configurado.</p></div></article>
+        <article class="slide"><img src="assets/slide3.svg" alt="Soporte y seguridad informática"><div class="slide-copy"><small>03 / SEGURIDAD</small><h3>Protege lo que importa.</h3><p>Respaldo y seguridad.</p></div></article>
+      </div>
+      <div class="dots" id="dots"></div>
+    </section>
+
+    <section class="benefits section" aria-label="Beneficios">
+      <div class="benefit-grid">
+        <div class="benefit"><span>⚡</span><h3>Rápido</h3></div>
+        <div class="benefit"><span>🛡</span><h3>Seguro</h3></div>
+        <div class="benefit"><span>💰</span><h3>Precio justo</h3></div>
+        <div class="benefit"><span>🤝</span><h3>Confianza</h3></div>
+      </div>
+      <div class="gallery-grid">
+        <figure><img src="assets/lipieza de compu.jpg" alt="Limpieza" loading="lazy"><figcaption>Limpieza</figcaption></figure>
+        <figure><img src="assets/velocidad de una compu.webp" alt="Velocidad" loading="lazy"><figcaption>Velocidad</figcaption></figure>
+        <figure><img src="assets/instalacion de software.jpg" alt="Software" loading="lazy"><figcaption>Software</figcaption></figure>
+        <figure><img src="assets/seguridad.jpg" alt="Seguridad" loading="lazy"><figcaption>Seguridad</figcaption></figure>
+        <figure><img src="assets/formateo.webp" alt="Formateo" loading="lazy"><figcaption>Formateo</figcaption></figure>
+        <figure><img src="assets/diagnostico.avif" alt="Diagnóstico" loading="lazy"><figcaption>Diagnóstico</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="services section" id="servicios">
+      <div class="section-title"><small>01 — SERVICIOS</small><h2>Todo lo que tu equipo <span>necesita.</span></h2><p>Para laptops y PCs de escritorio.</p></div>
+      <div class="service-grid">
+        <article class="service-card featured"><div class="thumb"><img src="assets/mant preventivo.jpg" alt="mantenimiento" loading="lazy"></div><div class="icon">⚙</div><span>01</span><h3>Mantenimiento preventivo</h3><p> Es el conjunto de acciones que se realizan periódicamente cómo limpiar, revisar y comprobar los componentes de una computadora, con el objetivo de prevenir fallas y mantener funcionando correctamente.</p><a href="#precios">Desde Bs 80 →</a></article>
+        <article class="service-card"><div class="thumb"><img src="assets/optim sis.jpg" alt="optimizacion" loading="lazy"></div><div class="icon">⚡</div><span>02</span><h3>Optimización del sistema</h3><p> Consiste en realizar diferentes ajustes y configuraciones para mejorar el rendimiento de la computadora, aumentar su velocidad y aprovechar mejor los recursos del sistema</p><a href="#precios">Desde Bs 50 →</a></article>
+        <article class="service-card"><div class="thumb"><img src="assets/instalacion de software.jpg" alt="software" loading="lazy"></div><div class="icon">▣</div><span>03</span><h3>Instalación de software</h3><p> Es el proceso de instalar, configurar y dejar funcionando correctamente programas o aplicaciones que el usuario necesita para realizar diferentes tareas en su computadora.</p><a href="#precios">Desde Bs 30 →</a></article>
+        <article class="service-card"><div class="thumb"><img src="assets/1.webp" alt="seguridad" loading="lazy"></div><div class="icon">🛡</div><span>04</span><h3>Seguridad y respaldo</h3><p> Consiste en proteger el equipo y la información almacenada mediante medidas de seguridad y copias de respaldo, evitando la pérdida de archivos importantes por errores, virus u otros problemas.</p><a href="#precios">Desde Bs 40 →</a></article>
+        <article class="service-card"><div class="thumb"><img src="assets/formatear.webp" alt="formateo" loading="lazy"></div><div class="icon">▤</div><span>05</span><h3>Formateo e instalación</h3><p> Es el proceso de eliminar la información y configuraciones anteriores de un dispositivo de almacenamiento para posteriormente instalar un sistema operativo y dejar la computadora lista para su uso.</p><a href="#precios">Desde Bs 100 →</a></article>
+        <article class="service-card"><div class="thumb"><img src="assets/diag tecnico.png" alt="diagnostico" loading="lazy"></div><div class="icon">⌁</div><span>06</span><h3>Diagnóstico técnico</h3><p> Es la revisión detallada de una computadora para identificar problemas de hardware o software, determinar sus posibles causas y establecer una solución adecuada.</p><a href="#precios">Desde Bs 30 →</a></article>
+      </div>
+    </section>
+
+    <section class="pricing section" id="precios">
+      <div class="section-title center"><small>02 — TARIFARIO</small><h2>Precios claros. <span>Sin sorpresas.</span></h2><p>Precios referenciales. Pueden variar según el equipo.</p></div>
+      <div class="price-grid">
+        <article class="price-card"><div class="thumb"><img src="assets/diagnostico.avif" alt="diagnostico" loading="lazy"></div><div class="price-tag">BÁSICO</div><h3>Diagnóstico</h3><div class="price">Bs <strong>30</strong></div><ul><li>✓ Revisión general</li><li>✓ Detección de fallas</li><li>✓ Recomendación técnica</li><li>✓ Presupuesto previo</li></ul><a href="#contacto" class="price-btn">Solicitar</a></article>
+        <article class="price-card popular"><div class="thumb"><img src="assets/mant preventivo.jpg" alt="mantenimiento" loading="lazy"></div><div class="popular-label">MÁS SOLICITADO</div><div class="price-tag">ESTÁNDAR</div><h3>Mantenimiento</h3><div class="price">Bs <strong>80</strong></div><ul><li>✓ Limpieza general</li><li>✓ Revisión de temperaturas</li><li>✓ Optimización básica</li><li>✓ Revisión de sistema</li></ul><a href="#contacto" class="price-btn">Solicitar</a></article>
+        <article class="price-card"><div class="thumb"><img src="assets/optim sis.jpg" alt="optimizacion" loading="lazy"></div><div class="price-tag">COMPLETO</div><h3>Optimización total</h3><div class="price">Bs <strong>150</strong></div><ul><li>✓ Mantenimiento completo</li><li>✓ Optimización avanzada</li><li>✓ Instalación/configuración</li><li>✓ Revisión final</li></ul><a href="#contacto" class="price-btn">Solicitar</a></article>
+      </div>
+    </section>
+
+    <section class="process section" id="proceso">
+      <div class="section-title"><small>03 — PROCESO</small><h2>Trabajamos con un <span>método.</span></h2></div>
+      <div class="process-grid">
+        <div class="process-step"><b>01</b><span class="step-ico">📥</span><div><h3>Recepción</h3><p>Recibimos tu equipo.</p></div></div>
+        <div class="process-step"><b>02</b><span class="step-ico">🔍</span><div><h3>Diagnóstico</h3><p>Buscamos la causa.</p></div></div>
+        <div class="process-step"><b>03</b><span class="step-ico">✅</span><div><h3>Autorización</h3><p>Tú apruebas el costo.</p></div></div>
+        <div class="process-step"><b>04</b><span class="step-ico">🚀</span><div><h3>Entrega</h3><p>Probamos y entregamos.</p></div></div>
+      </div>
+    </section>
+
+    <section class="about section" id="nosotros">
+      <div class="about-visual"><div class="terminal"><div class="terminal-top"><i></i><i></i><i></i><span>HG_SYSTEMS.exe</span></div><div class="terminal-body"><p><em>&gt;</em> iniciando diagnóstico...</p><p><em>&gt;</em> hardware <strong>[OK]</strong></p><p><em>&gt;</em> software <strong>[OK]</strong></p><p><em>&gt;</em> optimización <strong>[100%]</strong></p><p class="blink"><em>&gt;</em> sistema listo_</p></div></div></div>
+      <div class="about-copy"><small>04 — SOBRE HG SYSTEMS</small><h2>Tecnología con <span>criterio.</span></h2><p>Mantenimiento informático con atención clara y accesible.</p><div class="mini-features"><span>◉ Atención personalizada</span><span>◉ Diagnóstico previo</span><span>◉ Trabajo responsable</span><span>◉ Precios referenciales</span></div></div>
+    </section>
+
+    <section class="faq section">
+      <div class="section-title center"><small>05 — FAQ</small><h2>Preguntas <span>frecuentes.</span></h2></div>
+      <div class="faq-list">
+        <details><summary>¿El diagnóstico está incluido en el mantenimiento?</summary><p>Se cobra aparte. Consulta si se descuenta.</p></details>
+        <details><summary>¿Trabajan con laptops y computadoras de escritorio?</summary><p>Sí, con ambos.</p></details>
+        <details><summary>¿Puedo pedir un presupuesto antes?</summary><p>Sí, siempre antes de trabajar.</p></details>
+        <details><summary>¿Los precios son definitivos?</summary><p>Son referenciales; pueden variar.</p></details>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div class="contact-box">
+        <div><small>06 — CONTACTO</small><h2>¿Tu equipo necesita<br><span>mantenimiento?</span></h2><p>Cuéntanos tu problema.</p></div>
+        <form id="contactForm">
+          <input id="name" type="text" placeholder="Tu nombre" required>
+          <input id="device" type="text" placeholder="Equipo / modelo" required>
+          <select id="service"><option value="">Servicio de interés</option><option>Mantenimiento preventivo</option><option>Optimización</option><option>Formateo e instalación</option><option>Diagnóstico</option><option>Otro</option></select>
+          <textarea id="message" rows="4" placeholder="Cuéntanos brevemente el problema"></textarea>
+          <button class="btn btn-primary" type="submit">Preparar mensaje <span>→</span></button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><img src="assets/logo.png" alt="HG SYSTEMS"><p>Tecnología • Mantenimiento • Soluciones</p></div>
+    <div class="footer-links"><a href="#servicios">Servicios</a><a href="#precios">Precios</a><a href="#contacto">Contacto</a></div>
+    <div class="copyright">© <span id="year"></span> HG SYSTEMS. Todos los derechos reservados.</div>
+  </footer>
+
+  <button class="top" id="topBtn" aria-label="Volver arriba">↑</button>
+  <script src="menu.js"></script>
+</body>
+</html>
